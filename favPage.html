@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Favourite WebPage</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             height: 100vh;
+             width: 100vw;
+             background-image: url(allimages/Day7Css.jpg);
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+            }
+         .list{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
+            align-content:space-evenly;
+           background-image: url(allimages/innerflexBgDay7.jpg);
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+            border-radius: 20px;
+            box-shadow: 0px 0px 30px white;
+            width:700px;
+            height:450px;
+         }
+        h1{
+            text-align: center;
+            margin:auto;
+            margin-bottom: 60px;
+            font-size:50px;
+            color: cornsilk;
+        }
+        button{
+            border-radius: 10px;
+            background-color: rgb(7, 244, 252);
+            box-shadow: 0px 0px 20px white;
+            cursor: pointer;
+            width:100px;
+            height:50px;
+            transition-property: all;
+            transition-duration:0.4s ;
+            transition-timing-function:ease-in-out ;
+            transition-delay:0s ;
+        }
+        #gbutton:hover{
+            transform:scale(1.5,1.5);
+            box-shadow:0px 0px 25px gold;
+              background-color: rgb(202, 247, 5);
+              font-size: 20px;
+              font-weight: bold;
+        }
+         #ybutton:hover{
+            transform:scale(1.5,1.5);
+            box-shadow:0px 0px 25px rgb(244, 242, 242);
+         background-color: rgb(255, 33, 4);
+          font-size: 20px;
+           font-weight: bold;
+        }
+         #gitbutton:hover{
+            transform:scale(1.5,1.5);
+            box-shadow:0px 0px 25px rgb(235, 230, 230);
+              background-color: rgb(4, 245, 56);
+             font-size: 20px;
+              font-weight: bold;
+            }
+         #lbutton:hover{
+            transform:scale(1.5,1.5);
+            box-shadow:0px 0px 25px rgb(246, 246, 248);
+            background-color: blue;
+             font-size: 20px;
+              font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="div">
+        <h1>🌐My Favourite WebPage💻</h1>
+        <div class="list">
+             <a href="https://www.google.com" target="_blank"><button id="gbutton">Google</button></a>
+    <a  href="https://www.youtube.com" target="_blank"><button id="ybutton">YouTube</button></a>
+    <a  href="https://www.github.com" target="_blank"><button id="gitbutton">GitHub</button></a>
+    <a  href="https://www.linkedin.com" target="_blank"><button id="lbutton">LinkedIn</button></a>
+        </div>
+    </div>
+</body>
+</html>
